@@ -1,0 +1,29 @@
+body {
+    background-color: #f0ab8d;
+    text-align: center;
+    color: black;
+}
+#dark-mode-btn {
+    margin-left: 80%;
+}
+div {
+    border: 5px dotted black;
+    padding: 10px;
+    font-family: comic sans ms;
+    max-width: 80%;
+    margin: auto;
+}
+.question-frame{
+    border: hidden;
+    font-family: comic sans ms;
+}
+.dark-mode {
+    background-color: #222831;
+    color: #f6e4ad;
+}
+.div-mode {
+    border: 5px dotted #f6e4ad;
+}
+#start-btn {
+    margin-bottom: 1rem;
+}
