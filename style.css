@@ -39,6 +39,5 @@ a {
 #ankadevin {
     border: 5px dotted black;
     padding: 1rem;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
