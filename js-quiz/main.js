@@ -1,6 +1,6 @@
 const wineQuestions = [{
     no: 0,
-    q: "Vilken druva är troligtvis ett vin från Etna gjort av?",
+    q: "Vilken druva är väldigt vanlig på Etna, Scicillien?",
     a: [{ text: "Pinot Noir", points: 1 },
     { text: "Grenache", points: 1 },
     { text: "Nerello Mascalese", points: 10 },
