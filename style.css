@@ -25,7 +25,6 @@ nav {
 img {
   width: 200px;
 }
-
 a {
   text-decoration: none;
   color: black;
@@ -43,7 +42,7 @@ a {
 }
 @font-face {
   font-family: StarJedi;
-  src: url("star-wars-trivia/assets/starjedi.ttf");
+  src: url("../star-wars-trivia/assets/starjedi.ttf");
 }
 .swapi {
   background-color: rgb(255, 248, 143);
