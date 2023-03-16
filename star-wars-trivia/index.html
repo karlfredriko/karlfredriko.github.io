@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Star Wars Trivia</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Star Wars Trivia-Application</h1>
+        <fieldset>
+          <legend>Select a Character</legend>
+          <select id="charSelectOne">
+            <option selected hidden value="0">Choose a character</option>
+            <option value="1">Luke Skywalker</option>
+            <option value="12">Wilhuff Tarkin</option>
+            <option value="22">Boba Fett</option>
+            <option value="13">Chewbacca</option>
+            <option value="16">Jabba Desilijic Tiure</option>
+            <option value="27">General Ackbar</option>
+          </select>
+          <button id="compareBtn">Compare Stats</button>
+          <select id="charSelectTwo">
+            <option selected hidden value="0">Choose a character</option>
+            <option value="1">Luke Skywalker</option>
+            <option value="12">Wilhuff Tarkin</option>
+            <option value="22">Boba Fett</option>
+            <option value="13">Chewbacca</option>
+            <option value="16">Jabba Desilijic Tiure</option>
+            <option value="27">General Ackbar</option>
+          </select>
+        </fieldset>
+      </header>
+      <main>
+        <fieldset id="methodContainer" class="method-btns hidden">
+          <legend>
+            More Info: || 1.First Appearance || 2.Shared Movies || 3.A Planet to
+            call Home || 4.Most Expensive Vehicle
+          </legend>
+          <div id="btnsOne"></div>
+          <div id="btnsTwo"></div>
+        </fieldset>
+        <div>
+          <article id="one">
+            <h2 id="nameOne">unkown</h2>
+            <div id="containerOne">
+              <img
+                id="imgOne"
+                src="https://pixy.org/src/139/1394670.png"
+                alt="black and white silhouette with a question mark on"
+              />
+              <ul class="hidden" id="infoOne">
+                <li>Gender: ?</li>
+                <li>Height: ?</li>
+                <li>Mass: ?</li>
+                <li>Hair: ?</li>
+                <li>Skin: ?</li>
+                <li>Eyes: ?</li>
+                <li>Films: ?</li>
+              </ul>
+            </div>
+          </article>
+          <article id="two">
+            <h2 id="nameTwo">unkown</h2>
+            <div id="containerTwo">
+              <img
+                id="imgTwo"
+                src="https://pixy.org/src/139/1394670.png"
+                alt="black and white silhouette with a question mark on"
+              />
+              <ul class="hidden" id="infoTwo">
+                <li>Gender: ?</li>
+                <li>Height: ?</li>
+                <li>Mass: ?</li>
+                <li>Hair: ?</li>
+                <li>Skin: ?</li>
+                <li>Eyes: ?</li>
+                <li>Films: ?</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <section id="information" class="hidden"></section>
+      </main>
+    </div>
+  </body>
+</html>
