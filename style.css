@@ -4,6 +4,9 @@ body {
 h1 {
   margin-left: 2rem;
 }
+.welcome-text {
+  margin-left: 2rem;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
